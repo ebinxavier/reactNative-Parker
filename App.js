@@ -38,6 +38,13 @@ const Drawer = createDrawerNavigator({
   Settings
 })
 
+var setting=150;
+var routes=true;
+const DrawerNew = createDrawerNavigator({
+  Route,
+  Settings
+})
+
 
 
 export default class App extends React.Component {
